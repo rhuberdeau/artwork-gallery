@@ -1,0 +1,7 @@
+<h1>Artworks</h1>
+
+<ul>
+<% for artwork in @artworks.models: %>
+  <li><%= artwork.get('name') %></li>
+<% end %>
+</ul>
